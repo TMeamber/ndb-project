@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 700px;
+  padding-left: 10px;
+  margin: 50px auto;
+  background-color:navy;
+  border-radius: 10px;
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
+}
+
+.pokeball{
+  animation: pokeball-spin infinite 20s linear;
+  height: 80px;
+  margin: 500px auto;
+}
+
+@keyframes pokeball-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
